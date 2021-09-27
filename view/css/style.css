@@ -1,0 +1,104 @@
+/*Background custom*/
+body{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(#AEB6F1 , #90ADC6 );
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	background-attachment: fixed;
+}
+/*Navbar Custom*/
+.navbar-color{
+	background-color:#0B3C5D;
+}
+.navbar-logo,
+.navbar-logo:hover{
+	color: #FAD02C;
+}
+.navbar-link{
+	color: #E9EAEC;
+}
+.navbar-link:hover{
+	color: white;
+}
+.icon-navbar{
+	background:#E9EAEC;
+	color:#1D2731;
+}
+.button-icon.navbar-toggler{
+	border-color:#E9EAEC;
+}
+.button-icon .navbar-toggler-icon { 
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(233, 234, 236)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+/*Form Custom*/
+.img-cad{
+	background-image: linear-gradient(to left, rgba(51, 54, 82, 0.59), rgba(144, 173, 198, 0.43)), url("../img/img-cad.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.custom-form, .custom-card{
+	background:#FFFAFA;
+}
+.custom-form h3, .custom-card h3 {
+	font-size: 3rem;
+}
+.btn-cad{
+	background:#333652;
+	color:white;
+}
+.btn-cad:hover{
+	background:#2B2E46;
+	color: white;
+}
+.btn-cad-outiline{
+	border-color: #333652;
+}
+.btn-cad-outiline:hover{
+	background:#333652;
+	color:white;
+}
+@media (max-width: 768px) {
+	.custom-form h3 , .custom-card h3 {
+		font-size: 2.3rem;
+	}
+}
+
+.message-warning{
+	background:#FAD02C;
+	border-left: 9px #D9B310 solid;
+}
+.message-warning i{
+	color: #D9B310;
+}
+.message-success{
+	background:#20E529;
+	color: white;
+	border-left: 9px #007849 solid;
+}
+.message-success i{
+	color:#007849;
+}
+.message-success button:hover, .message-info button:hover ,.message-danger button:hover{
+	color: white;
+}
+.message-info{
+	background:#7EC8EC;
+	color: white;
+	border-left: 9px #0000C6 solid;
+}
+.message-info i{
+	color:#0000C6;
+}
+.message-danger{
+	background:#CB4335;
+	color: white;
+	border-left: 9px #641E16 solid;
+}
+.message-danger i{
+	color:#641E16;
+}
+
+/*Pessoas*/
